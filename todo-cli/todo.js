@@ -86,7 +86,7 @@ console.log("Due Today");
 let itemsDueToday = todos.dueToday();
 let formattedItemsDueToday = todos.toDisplayableList(itemsDueToday);
 console.log(formattedItemsDueToday);
-console.log("\n\n");
+console.log("\n");
 
 console.log("Due Later");
 let itemsDueLater = todos.dueLater();
