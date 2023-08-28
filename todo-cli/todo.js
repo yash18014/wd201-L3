@@ -80,7 +80,7 @@ console.log("Overdue");
 var overdues = todos.overdue();
 var formattedOverdues = todos.toDisplayableList(overdues);
 console.log(formattedOverdues);
-console.log("\n\n");
+console.log("\n");
 
 console.log("Due Today");
 let itemsDueToday = todos.dueToday();
